@@ -1,0 +1,50 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    android:id="@+id/task_layout"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp">
+
+        <CheckBox
+            android:id="@+id/todoCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:buttonTint="@android:color/holo_blue_dark"
+            android:paddingStart="8dp"
+            tools:text="Sample Text" />
+
+        <TextView
+            android:id="@+id/todoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:buttonTint="@android:color/holo_blue_dark"
+            android:paddingStart="8dp"
+            tools:text="Sample Text" />
+
+        <TextView
+            android:id="@+id/todoTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp"
+            android:buttonTint="@android:color/holo_blue_dark"
+            android:paddingStart="8dp"
+            tools:text="Sample Text" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
